@@ -29,9 +29,9 @@ class CodeCruiserPJ extends StatelessWidget {
 }
 
 Future<void> goToWebPage(String s) async {
-  final Uri _url = Uri.parse(s);
-  if (!await launchUrl(_url)) {
-    throw 'Could not launch $_url';
+  final Uri url = Uri.parse(s);
+  if (!await launchUrl(url)) {
+    throw 'Could not launch $url';
   }
 }
 
@@ -46,7 +46,7 @@ class _CodeCruiserPageState extends State<CodeCruiserPage> {
   @override
   Widget build(BuildContext context) {
     bool isScreenWide = MediaQuery.sizeOf(context).width >= 1100;
-    final PageController _controller = PageController(viewportFraction: 0.8);
+    final PageController controller = PageController(viewportFraction: 0.8);
     List<Widget> children = [
       Card(
           color: Colors.black,
@@ -194,10 +194,10 @@ class _CodeCruiserPageState extends State<CodeCruiserPage> {
                       width: double.infinity,
                       child: PageView.builder(
                           itemCount: children.length,
-                          controller: _controller,
+                          controller: controller,
                           itemBuilder: (context, index) {
                             return ListenableBuilder(
-                                listenable: _controller,
+                                listenable: controller,
                                 builder: (context, child) {
                                   return children[index];
                                 });

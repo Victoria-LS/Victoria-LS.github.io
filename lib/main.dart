@@ -76,10 +76,10 @@ class MyHomePage extends StatelessWidget {
             ? Stack(children: [
                 WaveWidget(
                   config: CustomConfig(gradients: [
-                    [Color(0xFF4AC8F6), Color(0xFF4AC8F6)],
-                    [Color(0xFF024273), Color(0xFF024273)],
-                    [Color(0xFF3194BD), Color(0xFF1D5F89)],
-                    [Color(0xFF1AC0E5), Color(0xFF167EC1)]
+                    [const Color(0xFF4AC8F6), const Color(0xFF4AC8F6)],
+                    [const Color(0xFF024273), const Color(0xFF024273)],
+                    [const Color(0xFF3194BD), const Color(0xFF1D5F89)],
+                    [const Color(0xFF1AC0E5), const Color(0xFF167EC1)]
                   ], durations: [
                     3500,
                     19440,
@@ -126,7 +126,7 @@ class MyHomePage extends StatelessWidget {
                 scaffoldBackgroundColor: Colors.transparent),
             child: BottomNavigationBar(
               backgroundColor:
-                  isScreenWide ? Color(0xFF1AC0E5) : Colors.transparent,
+                  isScreenWide ? const Color(0xFF1AC0E5) : Colors.transparent,
               fixedColor: Colors.transparent,
               useLegacyColorScheme: false,
               landscapeLayout: BottomNavigationBarLandscapeLayout.centered,

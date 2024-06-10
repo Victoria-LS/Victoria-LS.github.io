@@ -28,9 +28,9 @@ class MultusMediumPj extends StatelessWidget {
 }
 
 Future<void> goToWebPage(String s) async {
-  final Uri _url = Uri.parse(s);
-  if (!await launchUrl(_url)) {
-    throw 'Could not launch $_url';
+  final Uri url = Uri.parse(s);
+  if (!await launchUrl(url)) {
+    throw 'Could not launch $url';
   }
 }
 

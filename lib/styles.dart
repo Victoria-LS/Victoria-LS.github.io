@@ -17,7 +17,7 @@ abstract class HeaderOneText {
 abstract class HeaderTwoText {
   static const TextStyle header = TextStyle(
     fontFamily: 'Klavika Bold',
-    color: Color(0xFF2024273),
+    color: Color(0xff2024273),
     fontSize: 24,
   );
   static const TextStyle headerLight = TextStyle(

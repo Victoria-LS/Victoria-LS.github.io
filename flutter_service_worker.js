@@ -465,8 +465,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "95ef79760ffc1366ca5c293b4dfb7d7d
 "images/trianglehex.png": "e459acde7a777eb6e67ebe13a0727abb",
 "images/ucf.jpg": "77e99edda4d1092cbfd6104fce5933dc",
 "images/UCF_Burnett_Honors_College.jpg": "4e2dfe662ac65fafaeeaeb6eaaa195f3",
-"index.html": "dbc6cac0003ce7ec68dcefc219c702f8",
-"/": "dbc6cac0003ce7ec68dcefc219c702f8",
+"index.html": "401647856bc819759b84cf0c6dca87f7",
+"/": "401647856bc819759b84cf0c6dca87f7",
 "main.dart.js": "04f0c3d2ef1eb42200f0b10565ea2fa2",
 "manifest.json": "756526ea1a8a4035b8a7679dd8589e5a",
 "version.json": "cc1fa9cce5af273c0909d105387fee89"};

@@ -1,6 +1,6 @@
 {
-    "name": "portfolio_website",
-    "short_name": "portfolio_website",
+    "name": "Victoria's Portfolio Website",
+    "short_name": "Portfolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#EEEEEE",
